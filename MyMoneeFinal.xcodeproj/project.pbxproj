@@ -10,9 +10,65 @@
 		FA214B60264D3A400011821D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214B5F264D3A400011821D /* AppDelegate.swift */; };
 		FA214B62264D3A400011821D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214B61264D3A400011821D /* SceneDelegate.swift */; };
 		FA214B64264D3A400011821D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214B63264D3A400011821D /* ViewController.swift */; };
-		FA214B67264D3A400011821D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA214B65264D3A400011821D /* Main.storyboard */; };
 		FA214B69264D3A420011821D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA214B68264D3A420011821D /* Assets.xcassets */; };
 		FA214B6C264D3A420011821D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA214B6A264D3A420011821D /* LaunchScreen.storyboard */; };
+		FA214B77264D3AB60011821D /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214B75264D3AB60011821D /* MainTabController.swift */; };
+		FA214B78264D3AB60011821D /* MainTabController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA214B76264D3AB60011821D /* MainTabController.xib */; };
+		FA214B7E264D3BCA0011821D /* BerandaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214B7C264D3BCA0011821D /* BerandaViewController.swift */; };
+		FA214B7F264D3BCA0011821D /* BerandaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA214B7D264D3BCA0011821D /* BerandaViewController.xib */; };
+		FA214B95264D3D0B0011821D /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B82264D3D0A0011821D /* Poppins-SemiBold.ttf */; };
+		FA214B96264D3D0B0011821D /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B83264D3D0A0011821D /* Poppins-ExtraLightItalic.ttf */; };
+		FA214B97264D3D0B0011821D /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B84264D3D0A0011821D /* Poppins-ExtraBold.ttf */; };
+		FA214B98264D3D0B0011821D /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA214B85264D3D0A0011821D /* OFL.txt */; };
+		FA214B99264D3D0B0011821D /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B86264D3D0B0011821D /* Poppins-Regular.ttf */; };
+		FA214B9A264D3D0B0011821D /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B87264D3D0B0011821D /* Poppins-LightItalic.ttf */; };
+		FA214B9B264D3D0B0011821D /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B88264D3D0B0011821D /* Poppins-BoldItalic.ttf */; };
+		FA214B9C264D3D0B0011821D /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B89264D3D0B0011821D /* Poppins-ExtraLight.ttf */; };
+		FA214B9D264D3D0B0011821D /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B8A264D3D0B0011821D /* Poppins-BlackItalic.ttf */; };
+		FA214B9E264D3D0B0011821D /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B8B264D3D0B0011821D /* Poppins-MediumItalic.ttf */; };
+		FA214B9F264D3D0B0011821D /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B8C264D3D0B0011821D /* Poppins-ThinItalic.ttf */; };
+		FA214BA0264D3D0B0011821D /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B8D264D3D0B0011821D /* Poppins-ExtraBoldItalic.ttf */; };
+		FA214BA1264D3D0B0011821D /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B8E264D3D0B0011821D /* Poppins-Medium.ttf */; };
+		FA214BA2264D3D0B0011821D /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B8F264D3D0B0011821D /* Poppins-SemiBoldItalic.ttf */; };
+		FA214BA3264D3D0B0011821D /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B90264D3D0B0011821D /* Poppins-Black.ttf */; };
+		FA214BA4264D3D0B0011821D /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B91264D3D0B0011821D /* Poppins-Thin.ttf */; };
+		FA214BA5264D3D0B0011821D /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B92264D3D0B0011821D /* Poppins-Bold.ttf */; };
+		FA214BA6264D3D0B0011821D /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B93264D3D0B0011821D /* Poppins-Italic.ttf */; };
+		FA214BA7264D3D0B0011821D /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA214B94264D3D0B0011821D /* Poppins-Light.ttf */; };
+		FA214BAC264D76F90011821D /* UangIOCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214BAA264D76F90011821D /* UangIOCollectionViewCell.swift */; };
+		FA214BAD264D76F90011821D /* UangIOCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA214BAB264D76F90011821D /* UangIOCollectionViewCell.xib */; };
+		FA214BB2264D7B920011821D /* UangIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214BB1264D7B920011821D /* UangIO.swift */; };
+		FA53142E264F7348001769E0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53142C264F7348001769E0 /* ProfileViewController.swift */; };
+		FA53142F264F7348001769E0 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA53142D264F7348001769E0 /* ProfileViewController.xib */; };
+		FA531434264F808F001769E0 /* DetailRiwayatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA531432264F808F001769E0 /* DetailRiwayatViewController.swift */; };
+		FA531435264F808F001769E0 /* DetailRiwayatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA531433264F808F001769E0 /* DetailRiwayatViewController.xib */; };
+		FA53E03F264EC07E002A6F55 /* ImpianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53E03D264EC07E002A6F55 /* ImpianViewController.swift */; };
+		FA53E040264EC07E002A6F55 /* ImpianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA53E03E264EC07E002A6F55 /* ImpianViewController.xib */; };
+		FA53E048264EC4C1002A6F55 /* ImpianTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53E046264EC4C1002A6F55 /* ImpianTableViewCell.swift */; };
+		FA53E049264EC4C1002A6F55 /* ImpianTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA53E047264EC4C1002A6F55 /* ImpianTableViewCell.xib */; };
+		FA53E050264ECABB002A6F55 /* Impian.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53E04F264ECABB002A6F55 /* Impian.swift */; };
+		FA63DEE52652B5F3003B54F8 /* GenericId.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63DEE42652B5F3003B54F8 /* GenericId.swift */; };
+		FA67645F2650E47800423556 /* AddRiwayatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67645D2650E47800423556 /* AddRiwayatViewController.swift */; };
+		FA6764602650E47800423556 /* AddRiwayatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA67645E2650E47800423556 /* AddRiwayatViewController.xib */; };
+		FA67646A2651291B00423556 /* EditRiwayatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6764682651291B00423556 /* EditRiwayatViewController.swift */; };
+		FA67646B2651291B00423556 /* EditRiwayatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6764692651291B00423556 /* EditRiwayatViewController.xib */; };
+		FA67646F2651449400423556 /* AddImpianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67646D2651449400423556 /* AddImpianViewController.swift */; };
+		FA6764702651449400423556 /* AddImpianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA67646E2651449400423556 /* AddImpianViewController.xib */; };
+		FA67647426514EF200423556 /* EditImpianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67647226514EF200423556 /* EditImpianViewController.swift */; };
+		FA67647526514EF200423556 /* EditImpianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA67647326514EF200423556 /* EditImpianViewController.xib */; };
+		FA67647826515BA700423556 /* Saldo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67647726515BA700423556 /* Saldo.swift */; };
+		FA67647C265180E300423556 /* DataKosong.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA67647B265180E300423556 /* DataKosong.xib */; };
+		FA67647F2651811C00423556 /* DataKosong.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67647E2651811C00423556 /* DataKosong.swift */; };
+		FA78929326562609002FC42B /* NetworkServiceRiwayat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA78929226562609002FC42B /* NetworkServiceRiwayat.swift */; };
+		FA8F545D264E63FB00C53D6D /* Riwayat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F545C264E63FB00C53D6D /* Riwayat.swift */; };
+		FA9EFB40265784D800753ACC /* NetworkServiceImpian.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EFB3F265784D800753ACC /* NetworkServiceImpian.swift */; };
+		FAB726812654EB62003F0418 /* GetDateNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB726802654EB62003F0418 /* GetDateNow.swift */; };
+		FAB7268B26551210003F0418 /* CekSaldo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB7268A26551210003F0418 /* CekSaldo.swift */; };
+		FABEA5B8264FDA4C004ABAA5 /* DetailImpianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABEA5B6264FDA4C004ABAA5 /* DetailImpianViewController.swift */; };
+		FABEA5B9264FDA4C004ABAA5 /* DetailImpianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABEA5B7264FDA4C004ABAA5 /* DetailImpianViewController.xib */; };
+		FAEF3181265027610070DF98 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF3180265027610070DF98 /* Profile.swift */; };
+		FAFF839D264E17A8003A2EAD /* RiwayatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF839B264E17A8003A2EAD /* RiwayatTableViewCell.swift */; };
+		FAFF839E264E17A8003A2EAD /* RiwayatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFF839C264E17A8003A2EAD /* RiwayatTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +76,66 @@
 		FA214B5F264D3A400011821D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA214B61264D3A400011821D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FA214B63264D3A400011821D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA214B66264D3A400011821D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA214B68264D3A420011821D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA214B6B264D3A420011821D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA214B6D264D3A420011821D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA214B75264D3AB60011821D /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		FA214B76264D3AB60011821D /* MainTabController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTabController.xib; sourceTree = "<group>"; };
+		FA214B7C264D3BCA0011821D /* BerandaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerandaViewController.swift; sourceTree = "<group>"; };
+		FA214B7D264D3BCA0011821D /* BerandaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BerandaViewController.xib; sourceTree = "<group>"; };
+		FA214B82264D3D0A0011821D /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		FA214B83264D3D0A0011821D /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FA214B84264D3D0A0011821D /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FA214B85264D3D0A0011821D /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		FA214B86264D3D0B0011821D /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		FA214B87264D3D0B0011821D /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		FA214B88264D3D0B0011821D /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FA214B89264D3D0B0011821D /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FA214B8A264D3D0B0011821D /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FA214B8B264D3D0B0011821D /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FA214B8C264D3D0B0011821D /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FA214B8D264D3D0B0011821D /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FA214B8E264D3D0B0011821D /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		FA214B8F264D3D0B0011821D /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FA214B90264D3D0B0011821D /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		FA214B91264D3D0B0011821D /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		FA214B92264D3D0B0011821D /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		FA214B93264D3D0B0011821D /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		FA214B94264D3D0B0011821D /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		FA214BAA264D76F90011821D /* UangIOCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UangIOCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA214BAB264D76F90011821D /* UangIOCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UangIOCollectionViewCell.xib; sourceTree = "<group>"; };
+		FA214BB1264D7B920011821D /* UangIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UangIO.swift; sourceTree = "<group>"; };
+		FA53142C264F7348001769E0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FA53142D264F7348001769E0 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		FA531432264F808F001769E0 /* DetailRiwayatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRiwayatViewController.swift; sourceTree = "<group>"; };
+		FA531433264F808F001769E0 /* DetailRiwayatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailRiwayatViewController.xib; sourceTree = "<group>"; };
+		FA53E03D264EC07E002A6F55 /* ImpianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpianViewController.swift; sourceTree = "<group>"; };
+		FA53E03E264EC07E002A6F55 /* ImpianViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImpianViewController.xib; sourceTree = "<group>"; };
+		FA53E046264EC4C1002A6F55 /* ImpianTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpianTableViewCell.swift; sourceTree = "<group>"; };
+		FA53E047264EC4C1002A6F55 /* ImpianTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImpianTableViewCell.xib; sourceTree = "<group>"; };
+		FA53E04F264ECABB002A6F55 /* Impian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impian.swift; sourceTree = "<group>"; };
+		FA63DEE42652B5F3003B54F8 /* GenericId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericId.swift; sourceTree = "<group>"; };
+		FA67645D2650E47800423556 /* AddRiwayatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRiwayatViewController.swift; sourceTree = "<group>"; };
+		FA67645E2650E47800423556 /* AddRiwayatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddRiwayatViewController.xib; sourceTree = "<group>"; };
+		FA6764682651291B00423556 /* EditRiwayatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRiwayatViewController.swift; sourceTree = "<group>"; };
+		FA6764692651291B00423556 /* EditRiwayatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditRiwayatViewController.xib; sourceTree = "<group>"; };
+		FA67646D2651449400423556 /* AddImpianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImpianViewController.swift; sourceTree = "<group>"; };
+		FA67646E2651449400423556 /* AddImpianViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddImpianViewController.xib; sourceTree = "<group>"; };
+		FA67647226514EF200423556 /* EditImpianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImpianViewController.swift; sourceTree = "<group>"; };
+		FA67647326514EF200423556 /* EditImpianViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditImpianViewController.xib; sourceTree = "<group>"; };
+		FA67647726515BA700423556 /* Saldo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saldo.swift; sourceTree = "<group>"; };
+		FA67647B265180E300423556 /* DataKosong.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataKosong.xib; sourceTree = "<group>"; };
+		FA67647E2651811C00423556 /* DataKosong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataKosong.swift; sourceTree = "<group>"; };
+		FA78929226562609002FC42B /* NetworkServiceRiwayat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceRiwayat.swift; sourceTree = "<group>"; };
+		FA8F545C264E63FB00C53D6D /* Riwayat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riwayat.swift; sourceTree = "<group>"; };
+		FA9EFB3F265784D800753ACC /* NetworkServiceImpian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceImpian.swift; sourceTree = "<group>"; };
+		FAB726802654EB62003F0418 /* GetDateNow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDateNow.swift; sourceTree = "<group>"; };
+		FAB7268A26551210003F0418 /* CekSaldo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CekSaldo.swift; sourceTree = "<group>"; };
+		FABEA5B6264FDA4C004ABAA5 /* DetailImpianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImpianViewController.swift; sourceTree = "<group>"; };
+		FABEA5B7264FDA4C004ABAA5 /* DetailImpianViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailImpianViewController.xib; sourceTree = "<group>"; };
+		FAEF3180265027610070DF98 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		FAFF839B264E17A8003A2EAD /* RiwayatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiwayatTableViewCell.swift; sourceTree = "<group>"; };
+		FAFF839C264E17A8003A2EAD /* RiwayatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RiwayatTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +168,151 @@
 		FA214B5E264D3A400011821D /* MyMoneeFinal */ = {
 			isa = PBXGroup;
 			children = (
+				FA297AB62653BA0B0083BD2B /* Util */,
+				FA67647A26517F8F00423556 /* Components */,
+				FA53E03A264EC00A002A6F55 /* Controller */,
+				FA214BB0264D7B810011821D /* Model */,
+				FA214BA9264D76720011821D /* Cells */,
+				FA214B81264D3CCF0011821D /* Fonts */,
 				FA214B5F264D3A400011821D /* AppDelegate.swift */,
 				FA214B61264D3A400011821D /* SceneDelegate.swift */,
 				FA214B63264D3A400011821D /* ViewController.swift */,
-				FA214B65264D3A400011821D /* Main.storyboard */,
 				FA214B68264D3A420011821D /* Assets.xcassets */,
 				FA214B6A264D3A420011821D /* LaunchScreen.storyboard */,
 				FA214B6D264D3A420011821D /* Info.plist */,
 			);
 			path = MyMoneeFinal;
+			sourceTree = "<group>";
+		};
+		FA214B74264D3A5D0011821D /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				FA214B75264D3AB60011821D /* MainTabController.swift */,
+				FA214B76264D3AB60011821D /* MainTabController.xib */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		FA214B7B264D3B9A0011821D /* Beranda */ = {
+			isa = PBXGroup;
+			children = (
+				FA531432264F808F001769E0 /* DetailRiwayatViewController.swift */,
+				FA531433264F808F001769E0 /* DetailRiwayatViewController.xib */,
+				FA214B7C264D3BCA0011821D /* BerandaViewController.swift */,
+				FA214B7D264D3BCA0011821D /* BerandaViewController.xib */,
+				FA67645D2650E47800423556 /* AddRiwayatViewController.swift */,
+				FA67645E2650E47800423556 /* AddRiwayatViewController.xib */,
+				FA6764682651291B00423556 /* EditRiwayatViewController.swift */,
+				FA6764692651291B00423556 /* EditRiwayatViewController.xib */,
+				FA78929226562609002FC42B /* NetworkServiceRiwayat.swift */,
+			);
+			path = Beranda;
+			sourceTree = "<group>";
+		};
+		FA214B81264D3CCF0011821D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA214B85264D3D0A0011821D /* OFL.txt */,
+				FA214B90264D3D0B0011821D /* Poppins-Black.ttf */,
+				FA214B8A264D3D0B0011821D /* Poppins-BlackItalic.ttf */,
+				FA214B92264D3D0B0011821D /* Poppins-Bold.ttf */,
+				FA214B88264D3D0B0011821D /* Poppins-BoldItalic.ttf */,
+				FA214B84264D3D0A0011821D /* Poppins-ExtraBold.ttf */,
+				FA214B8D264D3D0B0011821D /* Poppins-ExtraBoldItalic.ttf */,
+				FA214B89264D3D0B0011821D /* Poppins-ExtraLight.ttf */,
+				FA214B83264D3D0A0011821D /* Poppins-ExtraLightItalic.ttf */,
+				FA214B93264D3D0B0011821D /* Poppins-Italic.ttf */,
+				FA214B94264D3D0B0011821D /* Poppins-Light.ttf */,
+				FA214B87264D3D0B0011821D /* Poppins-LightItalic.ttf */,
+				FA214B8E264D3D0B0011821D /* Poppins-Medium.ttf */,
+				FA214B8B264D3D0B0011821D /* Poppins-MediumItalic.ttf */,
+				FA214B86264D3D0B0011821D /* Poppins-Regular.ttf */,
+				FA214B82264D3D0A0011821D /* Poppins-SemiBold.ttf */,
+				FA214B8F264D3D0B0011821D /* Poppins-SemiBoldItalic.ttf */,
+				FA214B91264D3D0B0011821D /* Poppins-Thin.ttf */,
+				FA214B8C264D3D0B0011821D /* Poppins-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FA214BA9264D76720011821D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA214BAA264D76F90011821D /* UangIOCollectionViewCell.swift */,
+				FA214BAB264D76F90011821D /* UangIOCollectionViewCell.xib */,
+				FAFF839B264E17A8003A2EAD /* RiwayatTableViewCell.swift */,
+				FAFF839C264E17A8003A2EAD /* RiwayatTableViewCell.xib */,
+				FA53E046264EC4C1002A6F55 /* ImpianTableViewCell.swift */,
+				FA53E047264EC4C1002A6F55 /* ImpianTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FA214BB0264D7B810011821D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA214BB1264D7B920011821D /* UangIO.swift */,
+				FA8F545C264E63FB00C53D6D /* Riwayat.swift */,
+				FA53E04F264ECABB002A6F55 /* Impian.swift */,
+				FAEF3180265027610070DF98 /* Profile.swift */,
+				FA67647726515BA700423556 /* Saldo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA297AB62653BA0B0083BD2B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FAB726802654EB62003F0418 /* GetDateNow.swift */,
+				FA63DEE42652B5F3003B54F8 /* GenericId.swift */,
+				FAB7268A26551210003F0418 /* CekSaldo.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		FA53142B264F732A001769E0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FA53142C264F7348001769E0 /* ProfileViewController.swift */,
+				FA53142D264F7348001769E0 /* ProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FA53E03A264EC00A002A6F55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA53142B264F732A001769E0 /* Profile */,
+				FA53E03C264EC045002A6F55 /* Impian */,
+				FA214B74264D3A5D0011821D /* MainTab */,
+				FA214B7B264D3B9A0011821D /* Beranda */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA53E03C264EC045002A6F55 /* Impian */ = {
+			isa = PBXGroup;
+			children = (
+				FA53E03D264EC07E002A6F55 /* ImpianViewController.swift */,
+				FA53E03E264EC07E002A6F55 /* ImpianViewController.xib */,
+				FABEA5B6264FDA4C004ABAA5 /* DetailImpianViewController.swift */,
+				FABEA5B7264FDA4C004ABAA5 /* DetailImpianViewController.xib */,
+				FA67646D2651449400423556 /* AddImpianViewController.swift */,
+				FA67646E2651449400423556 /* AddImpianViewController.xib */,
+				FA67647226514EF200423556 /* EditImpianViewController.swift */,
+				FA67647326514EF200423556 /* EditImpianViewController.xib */,
+				FA9EFB3F265784D800753ACC /* NetworkServiceImpian.swift */,
+			);
+			path = Impian;
+			sourceTree = "<group>";
+		};
+		FA67647A26517F8F00423556 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA67647B265180E300423556 /* DataKosong.xib */,
+				FA67647E2651811C00423556 /* DataKosong.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +373,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA214B6C264D3A420011821D /* LaunchScreen.storyboard in Resources */,
+				FA214BA2264D3D0B0011821D /* Poppins-SemiBoldItalic.ttf in Resources */,
+				FA53E040264EC07E002A6F55 /* ImpianViewController.xib in Resources */,
+				FABEA5B9264FDA4C004ABAA5 /* DetailImpianViewController.xib in Resources */,
+				FA214B9F264D3D0B0011821D /* Poppins-ThinItalic.ttf in Resources */,
+				FA531435264F808F001769E0 /* DetailRiwayatViewController.xib in Resources */,
+				FA214B96264D3D0B0011821D /* Poppins-ExtraLightItalic.ttf in Resources */,
+				FA214BA3264D3D0B0011821D /* Poppins-Black.ttf in Resources */,
+				FA6764702651449400423556 /* AddImpianViewController.xib in Resources */,
+				FA214BA6264D3D0B0011821D /* Poppins-Italic.ttf in Resources */,
+				FA6764602650E47800423556 /* AddRiwayatViewController.xib in Resources */,
+				FA214B7F264D3BCA0011821D /* BerandaViewController.xib in Resources */,
+				FA67647526514EF200423556 /* EditImpianViewController.xib in Resources */,
+				FA67647C265180E300423556 /* DataKosong.xib in Resources */,
+				FAFF839E264E17A8003A2EAD /* RiwayatTableViewCell.xib in Resources */,
+				FA214B9B264D3D0B0011821D /* Poppins-BoldItalic.ttf in Resources */,
+				FA214BA5264D3D0B0011821D /* Poppins-Bold.ttf in Resources */,
+				FA214B9E264D3D0B0011821D /* Poppins-MediumItalic.ttf in Resources */,
+				FA214B98264D3D0B0011821D /* OFL.txt in Resources */,
 				FA214B69264D3A420011821D /* Assets.xcassets in Resources */,
-				FA214B67264D3A400011821D /* Main.storyboard in Resources */,
+				FA53142F264F7348001769E0 /* ProfileViewController.xib in Resources */,
+				FA214BAD264D76F90011821D /* UangIOCollectionViewCell.xib in Resources */,
+				FA214B97264D3D0B0011821D /* Poppins-ExtraBold.ttf in Resources */,
+				FA67646B2651291B00423556 /* EditRiwayatViewController.xib in Resources */,
+				FA214B95264D3D0B0011821D /* Poppins-SemiBold.ttf in Resources */,
+				FA214B9D264D3D0B0011821D /* Poppins-BlackItalic.ttf in Resources */,
+				FA214B78264D3AB60011821D /* MainTabController.xib in Resources */,
+				FA214BA4264D3D0B0011821D /* Poppins-Thin.ttf in Resources */,
+				FA214B99264D3D0B0011821D /* Poppins-Regular.ttf in Resources */,
+				FA214BA7264D3D0B0011821D /* Poppins-Light.ttf in Resources */,
+				FA214B9A264D3D0B0011821D /* Poppins-LightItalic.ttf in Resources */,
+				FA53E049264EC4C1002A6F55 /* ImpianTableViewCell.xib in Resources */,
+				FA214BA1264D3D0B0011821D /* Poppins-Medium.ttf in Resources */,
+				FA214B9C264D3D0B0011821D /* Poppins-ExtraLight.ttf in Resources */,
+				FA214BA0264D3D0B0011821D /* Poppins-ExtraBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +417,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA53E03F264EC07E002A6F55 /* ImpianViewController.swift in Sources */,
 				FA214B64264D3A400011821D /* ViewController.swift in Sources */,
+				FA67646F2651449400423556 /* AddImpianViewController.swift in Sources */,
+				FA67647F2651811C00423556 /* DataKosong.swift in Sources */,
+				FA63DEE52652B5F3003B54F8 /* GenericId.swift in Sources */,
+				FAFF839D264E17A8003A2EAD /* RiwayatTableViewCell.swift in Sources */,
+				FA9EFB40265784D800753ACC /* NetworkServiceImpian.swift in Sources */,
+				FA67646A2651291B00423556 /* EditRiwayatViewController.swift in Sources */,
+				FA214BAC264D76F90011821D /* UangIOCollectionViewCell.swift in Sources */,
+				FA8F545D264E63FB00C53D6D /* Riwayat.swift in Sources */,
+				FABEA5B8264FDA4C004ABAA5 /* DetailImpianViewController.swift in Sources */,
+				FA53E050264ECABB002A6F55 /* Impian.swift in Sources */,
+				FA67647826515BA700423556 /* Saldo.swift in Sources */,
+				FA53E048264EC4C1002A6F55 /* ImpianTableViewCell.swift in Sources */,
+				FAB726812654EB62003F0418 /* GetDateNow.swift in Sources */,
+				FA67645F2650E47800423556 /* AddRiwayatViewController.swift in Sources */,
+				FA214BB2264D7B920011821D /* UangIO.swift in Sources */,
+				FA67647426514EF200423556 /* EditImpianViewController.swift in Sources */,
+				FAEF3181265027610070DF98 /* Profile.swift in Sources */,
+				FAB7268B26551210003F0418 /* CekSaldo.swift in Sources */,
 				FA214B60264D3A400011821D /* AppDelegate.swift in Sources */,
+				FA214B7E264D3BCA0011821D /* BerandaViewController.swift in Sources */,
+				FA53142E264F7348001769E0 /* ProfileViewController.swift in Sources */,
+				FA531434264F808F001769E0 /* DetailRiwayatViewController.swift in Sources */,
+				FA214B77264D3AB60011821D /* MainTabController.swift in Sources */,
+				FA78929326562609002FC42B /* NetworkServiceRiwayat.swift in Sources */,
 				FA214B62264D3A400011821D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +450,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA214B65264D3A400011821D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA214B66264D3A400011821D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA214B6A264D3A420011821D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
