@@ -11,6 +11,7 @@ MyMonee is an iOS application that is useful for recording our incoming and outg
 
 ## Requirements
 - iOS 14.4
+- Swift 5
 - Xcode 12.4
 
 ## How To Usage
