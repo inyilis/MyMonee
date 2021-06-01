@@ -13,6 +13,6 @@ MyMonee is an iOS application that is useful for recording our incoming and outg
 - iOS 14.4
 - Xcode 12.4
 
-## Usage
+## How To Usage
 1. Clone the repository and run in your project.  
 2. Congratulations!
